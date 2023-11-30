@@ -1,1 +1,11 @@
-This is a test Recommender system usind Content-Based Filtering with Scikit-Learn approach and a Collaborative Filtering with Surprise Library"""
+<h1 align="center"> 
+ A Series on Recommender Systems  
+</h1>
+
+
+<h2 align="center"> 
+ From zero to Deployment 🚀 
+</h2>
+
+
+---
