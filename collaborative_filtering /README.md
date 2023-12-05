@@ -7,9 +7,20 @@ Types of Collaborative Filtering
 
 - Item-Based Collaborative Filtering: Instead of finding user’s look-alike, it finds item’s look-alike. Once the items are identified, it recommends items similar to what the user has liked in the past.
 
+Measure for determining user or item simillarity 
+Jaccard Similarity: Effective for binary data.
+Pearson Correlation: Suitable for continuous data.
+Cosine Similarity: Often used for user-based CF.
+
+
 
 
 Recent advancements in CF have been discussed in papers like "Neural Collaborative Filtering" (He et al., 2017), which introduces a neural network-based approach to collaborative filtering, moving beyond traditional matrix factorization methods.
 
 A significant contribution in this area is "Deep Learning-based Recommender System: A Survey and New Perspectives" (Zhang et al., 2019), which discusses various deep learning techniques applicable in CF.
+
+Generally techniques that perform best for this task including
+- Matrix factorization (Singular Value Decomposition SVD, - Alternating Least Squares ALS)
+- memory-based models 
+- nearest neighbors models 
 
